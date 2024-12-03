@@ -1,83 +1,65 @@
-# CHANGELOG
+  ◆▬▬▬▬▬▬▬▬▣✦▣▬▬▬▬▬▬▬▬▬◆
+<h2 align="center">
+𝘼𝙡𝙚𝙭𝙖 𝙚𝙠𝙞𝙗𝙞𝙣𝙚 𝙩𝙚𝙨𝙚𝙠𝙠𝙪𝙧 𝙚𝙙𝙚𝙧𝙞𝙯
+<h2 align="center">
+🎧━╬ﮩ٨ـﮩﮩ٨ـ𝖪𝖴𝖬𝖲𝖠𝖫 ﮩ٨ـﮩﮩ٨ـ╬━🎧
+</h2>
 
-All notable changes to YukkiMusic will be documented in this file.
+<p align="center">
+  <img src="https://envs.sh/Lx9.jpg">
+</p>
 
+<p align="center">
+<a href="https://github.com/AnonymousX1025/AnonXMusic/stargazers"><img src="https://img.shields.io/github/stars/AnonymousX1025/AnonXMusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/AnonymousX1025/AnonXMusic/network/members"> <img src="https://img.shields.io/github/forks/AnonymousX1025/AnonXMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/AnonymousX1025/AnonXMusic/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
+<a href="https://github.com/AnonymousX1025/AnonXMusic/commits/AnonymousX1025"> <img src="https://img.shields.io/github/last-commit/AnonymousX1025/AnonXMusic?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+</p>
 
-## [v1.3] - 2024-11-15
+<h3 align="center">
+    ─「 𝙝𝙚𝙧𝙤𝙠𝙪 𝙙𝙚𝙥𝙤𝙡𝙖 」─
+</h3>
 
-### Added
-- Added the `asyncify` decorator to convert synchronous functions to asynchronous.
-- Added the `OWNER` command that will show in the log group or bot PM/DM.
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Silahanim21/Kumsal-Muzik-bot"> <img src="https://img.shields.io/badge/𝘽𝙐𝙍𝘼𝙔𝘼%20𝙏𝙄𝙆𝙇𝘼%20-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
-### Removed
-- Deprecated the `oauth2` method, which is no longer supported. This functionality has been merged into `yt-dlp`.
+<h3 align="center">
+    ─「 destek 」─
+</h3>
 
-### Fixed
-- Various bug fixes and performance improvements.
+<p align="center">
+<a href="https://telegram.me/kumsalmuzikk"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</p>
 
-**Full Changelog:** [`v1.2...v1.3`](https://github.com/TheTeamVivek/YukkiMusic/compare/v1.2...v1.3)
+<p align="center">
+<a href="https://t.me/kumsaldestekkanal"><img src="https://img.shields.io/badge/-destek%20kanal-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</p>
 
-## [v1.2] - 2024-11-03
+¶────┈┈┈┄┄╌╌╌╌─────┈┈┈┄┄╌╌╌╌┄┄
+<p align="center">
+⏳ Genel Komutlar
+<p align="center">
+/oynat •> ɪsᴛᴇᴅɪɢɪɴ sᴀʀᴋɪʏɪ ᴏʏɴᴀᴛ
+<p align="center">
+/bul •> ɪsᴛᴇᴅɪɢɪɴ sᴀʀᴋɪʏɪ ɪɴᴅɪʀ
+<p align="center">
+/durdur •> sᴀʀᴋɪʏɪ ᴅᴜʀᴅᴜʀ
+<p align="center">
+/devam •> sᴀʀᴋɪʏɪ sᴜʀᴅᴜʀ
+<p align="center">
+/atla •> sᴀʀᴋɪʏɪ ᴀᴛʟᴀʀ
+<p align="center">
+/son •> sᴀʀᴋɪʏɪ sᴏɴʟᴀɴᴅɪʀ
+<p align="center">
+/reload •> ᴀᴅᴍɪɴ ʟɪsᴛᴇsɪɴɪ ɢᴜɴᴄᴇʟʟᴇʀ
+<p align="center">
+/katil •> ᴀsɪsᴛᴀɴ ɢʀᴜʙᴀ ᴋᴀᴛɪʟɪʀ
+<p align="center">
+/ayril •> ᴀsɪsᴛᴀɴ ɢʀʏʙᴛᴀɴ ᴀʏʀɪʟɪʀ
+<p align="center">
+/auth •> ᴋᴜʟʟᴀᴄɪʏɪ ʏᴇᴛᴋɪʟᴇɴᴅɪʀɪʀ
+<p align="center">
+/unauth •> ᴋᴜʟʟᴀɴɪᴄɪʏɪ ʏᴇᴛᴋɪsɪᴢʟᴇsᴛɪʀɪʀ
+<p align="center">
+/clean •> ʙᴏᴛᴜɴ ɪᴄɪɴᴅᴇᴋɪ ᴏɴᴇᴍsɪᴢ ᴠᴇʀɪʟᴇʀɪ ᴛᴇᴍɪᴢʟᴇʀ
 
-### Added
-- Added Multiple Languages Support for commands
-- Multiple language support for bot Help Menu [ Only for primary plugins Not for External Plugins ]
-- All commands can be used without prefix [ Except English commands ]
-- User can Request her data and can Delete [ Except: Chat, Banned Users, Blacklist Chats]
-- PRIVACY.md For YukkiMusic
-### Changed
-- `Apple`, `Carbon`, `Saavn`, `Resso`, `SoundCloud`, `Spotify`, `Telegram`, `YouTube` are centralized to a class [PlaTForms](https://github.com/TheTeamVivek/YukkiMusic/blob/master/YukkiMusic%2Fplatforms%2F__init__.py)
-- Explained Privacy policy in `/privacy` command
-- Now Assistsant will joinchat when chat is private
-- Now User Friendly README.md
-
-**Full Changelog:** [`v1.1...v1.2`](https://github.com/TheTeamVivek/YukkiMusic/compare/v1.1...v1.2)
-
-## [v1.1] - 2024-10-14
-
-### Added
-- Unlimited assistant support for handling multiple voice chats
-- Mongodb Data Export/import Support 
-- Added JioSaavn Playback support 
-- Added yt-dlp-youtube-oauth2 to bypass Singin Issue
-- The currently playing message will be deleted when switching to the next track.
-
-### Changed
-- Updated Python Version to 3.12.7-slim
-- Improved error handling in music playback
-- Enhanced queue management system
-- Better formatting for duration display
-- Optimized database operations
-
-### Fixed
-- Delete Files after streams end
-- Updated `langs/en.yml` Standardized to use English letters instead of mini caps.
-- Commands are now sourced from `command.yml` Any updates to plugin commands will automatically update the help message
-
-### Removed
-
-- Some unused plugins vars.py, groupass.py, player.py.
--  Assets folder due to lack of use.
-- Unused dependencies from requirements.txt
-
-**Full Changelog:** [`v1.0...v1.1`](https://github.com/TheTeamVivek/YukkiMusic/compare/v1.0...v1.1)
-
-## [v1.0] - 2024-10-05
-
-
-- Initial release of YukkiMusic
-- Thanks To [Pranav-Saraswat](https://github.com/Pranav-Saraswat) For Their YukkiMusicFork For Making Working 
-- Thanks To [TeamYukki](https://github.com/TeamYukki/) for Their [YukkiMusicBot](https://github.com/TeamYukki/YukkiMusicBot)
-
-### Features
-- High quality music streaming
-- Video streaming capability
-- Interactive inline buttons
-- Detailed playback statistics
-- Group management commands
-- Customizable bot settings
-
-### Notes
-- Base version established with core functionality
-- Compatible with Python 3.9+
-- Built with Pyrogram and py-tgcalls
