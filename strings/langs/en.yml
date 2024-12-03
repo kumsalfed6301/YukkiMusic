@@ -249,23 +249,23 @@ V_C_5 : "Bu sohbette aktif bir çağrı yok."
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "KAPAT"
-CLOSEMENU_BUTTON  : "KAPAT"
-BACK_BUTTON : "GERİ"
+CLOSE_BUTTON  : "🗑️𝗠𝗲𝗻𝘂̈𝘆𝘂̈ 𝗞𝗮𝗽𝗮𝘁🗑️"
+CLOSEMENU_BUTTON  : "🗑️𝗠𝗲𝗻𝘂̈𝘆𝘂̈ 𝗞𝗮𝗽𝗮𝘁🗑️"
+BACK_BUTTON : "⬅️𝗚𝗲𝗿𝗶"
 UNBAN_BUTTON : "YASAKLAMAYI KALDIR"
 
 #Lyrics
 L_B_1 : "🚀 Şarkı sözlerini şimdi kontrol et"
 
 # Start
-S_B_1 : "🗒 Komutlar"
-S_B_2 : "🔧 Ayarlar"
-S_B_3 : "📨 Destek"
-S_B_4 : "📨 Kanal"
-S_B_5 : "✚ Beni Grupınıza Ekleyin ✚"
-S_B_6 : "💡 Git Repo"
-S_B_7 : "👤 Sahip"
-S_B_8 : "🔎 Nasıl Kullanılır? Komut Menüsü"
+S_B_1 : "🎧𝗬𝗔𝗥𝗗𝗜𝗠 𝗞𝗢𝗠𝗨𝗧𝗟𝗔𝗥🎧"
+S_B_2 : "🎛️𝗔𝗬𝗔𝗥𝗟𝗔𝗥🎛️"
+S_B_3 : "📢𝗗𝗘𝗦𝗧𝗘𝗞📢"
+S_B_4 : "📯𝗗𝗨𝗬𝗨𝗥𝗨📯"
+S_B_5 : "✅𝗕𝗘𝗡𝗜̇ 𝗚𝗥𝗨𝗕𝗨𝗡𝗔 𝗘𝗞𝗟𝗘✅"
+S_B_6 : "🔰𝗞𝗔𝗬𝗡𝗔𝗞 𝗞𝗢𝗗🔰"
+S_B_7 : "👑𝗞𝗨𝗥𝗨𝗖𝗨👑"
+S_B_8 : "🎧𝗬𝗔𝗥𝗗𝗜𝗠 𝗞𝗢𝗠𝗨𝗧𝗟𝗔𝗥🎧"
 
 #PlayMode
 PM_B_1 : "Doğrudan Çal"
@@ -280,13 +280,13 @@ P_B_4 : "🎵 Çalma Listesini Çal"
 
 P_B_5 : "SUSTUR"
 P_B_6 : "SUSTURMAYI KALDIR"
-P_B_7 : "ÇALMA LISTESİNE EKLE"
+P_B_7 : "✅𝗟𝗶𝘀𝘁𝗲𝗺𝗲 𝗲𝗸𝗹𝗲"
 
 
 # Playlist
 PL_B_1 : "🚀 OYNAT ÇALMA LİSTESİ"
 PL_B_2 : "Çalma Listesi"
-PL_B_3 : "Daha Fazla"
+PL_B_3 : "🎛️𝗖-𝗽𝗮𝗻𝗲𝗹"
 PL_B_4 : "📡 OYNAT MODU"
 PL_B_5 : "🔄 Tüm Çalma Listesini Sil"
 PL_B_6 : "↗️ Çalma Listesini Sil"
@@ -303,7 +303,7 @@ ST_B_2 : "🎥 Video Kalitesi"
 ST_B_3 : "🎩 Kullanıcı Yetkileri"
 ST_B_4 : "📱 Gösterge Paneli"
 ST_B_5 : "▶️ OYNAT MODU"
-ST_B_6 : "🏳️‍🌈 Dil"
+ST_B_6 : "♻️𝗗𝗜̇𝗟𝗟𝗘𝗥♻️"
 ST_B_7 : "🔄 Temizle Modu"
 ST_B_8 : "{0} Düşük Kalite"
 ST_B_9 : "{0} Orta Kalite"
