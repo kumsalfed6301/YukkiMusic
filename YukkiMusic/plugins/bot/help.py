@@ -46,7 +46,7 @@ async def format_helper_text(lng, helper_key: str, text: str) -> str:
     def _cmd(key):
         return " ".join(f"/{cmd}" for cmd in _[key])
 
-    if helper_key == "Auth":
+    if helper_key == "𝗬𝗘𝗧𝗞𝗜̇𝗟𝗜̇":
         return text.format(
             _cmd("AUTH_COMMAND"), _cmd("UNAUTH_COMMAND"), _cmd("AUTHUSERS_COMMAND")
         )
