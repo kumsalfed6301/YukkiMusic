@@ -1,23 +1,23 @@
 Auth: |
-  <b>Yetkili kullanıcılar, sohbetinizde yönetici hakları olmadan yönetici komutlarını kullanabilir.</b>
-  <b>✧ {0}</b> [Kullanıcı adı] - Kullanıcıyı grubun YETKİLİ listesine ekleyin.
-  <b>✧ {1}</b> [Kullanıcı adı] - Kullanıcıyı grubun YETKİLİ listesinden çıkarın.
-  <b>✧ {2}</b> - Grubun YETKİLİ listesini kontrol edin.
+  <b>  kullanıcılar, sohbetinizde yönetici hakları olmadan yönetici komutlarını kullanabilir.</b>
+  <b>✧ {0}</b>  /yetki /yetkiver [Kullanıcı adı] - Kullanıcıyı grubun YETKİLİ listesine ekleyin.
+  <b>✧ {1}</b> /yetkial [Kullanıcı adı] - Kullanıcıyı grubun YETKİLİ listesinden çıkarın.
+  <b>✧ {2}</b>  /yetkililer - Grubun YETKİLİ listesini kontrol edin.
 
 Admin: |
   <b>c, kanal oynatmayı ifade eder</b>
   <b>✧ {0}</b> - Çalan müziği duraklatın.
   <b>✧ {1}</b> - Duraklatılmış müziği devam ettirin.
-  <b>✧ {2}</b> - Çalan müziğin sesini kapatın.
-  <b>✧ {3}</b> - Sessiz müziği tekrar açın.
-  <b>✧ {4}</b> - Şu anda çalan müziği atlayın.
-  <b>✧ {5}</b> - Çalan müziği durdurun.
-  <b>✧ {6}</b> - Kuyruktaki çalma listesini/şarkıları rastgele karıştırın.
-  <b>✧ {7}</b> - Müziği ileri sarın.
-  <b>✧ {8}</b> - Müziği geriye sararak belirtilen süreye dönün.
-  <b>✧ {9}</b> - Botu sohbetiniz için yeniden başlatın.
-  <b>✧ {4}</b> [Sayı (Örnek: 3)] - Müziği belirli bir sıraya atlayın. Örnek: <b>/skip 3</b>, üçüncü sıradaki müziğe atlayacak ve 1 ile 2'yi geçecektir.
-  <b>✧ {10}</b> [enable/disable] veya [1-10 arasında bir sayı] - Etkinleştirildiğinde, bot mevcut müziği sesli sohbette 1-10 kez tekrar eder. Varsayılan döngü değeri 10'dur.
+  <b>✧ {2}</b> /duraklat /cduraklat /kduraklat - Çalan müziğin sesini kapatın.
+  <b>✧ {3}</b> - /devam /cdevam /kdevam - Duraklatılmış müziği devam ettirin.
+  <b>✧ {4}</b> - /atla /catla /katla - Şu anda çalan müziği.
+  <b>✧ {5}</b> - /durdur /cdurdur /kdurdur Çalan müziği durdurun.
+  <b>✧ {6}</b> - /ckaristir /ckaristir /karistir Kuyruktaki çalma listesini/şarkıları rastgele karıştırın.
+  <b>✧ {7}</b> -  /ilerisar /cilerisar /gerisar Müziği ileri sarın.
+  <b>✧ {8}</b> - /seek /cseek  Müziği geriye sararak belirtilen süreye dönün.
+  <b>✧ {9}</b> - /yenidenbaslat Botu sohbetiniz için yeniden başlatın.
+  <b>✧ {4}</b> [Sayı (Örnek: 3)] -  Müziği belirli bir sıraya atlayın. Örnek: <b>/skip 3</b>, üçüncü sıradaki müziğe atlayacak ve 1 ile 2'yi geçecektir.
+  <b>✧ {10}</b>  /cdongu /dongu [enable/disable] veya [1-10 arasında bir sayı] - Etkinleştirildiğinde, bot mevcut müziği sesli sohbette 1-10 kez tekrar eder. Varsayılan döngü değeri 10'dur.
 
 Active: |
   <b>✧ {0}</b> - Botta aktif sesli sohbetleri kontrol edin.
