@@ -80,7 +80,7 @@ async def format_helper_text(lng, helper_key: str, text: str) -> str:
         )
     elif helper_key == "𝗥𝗘𝗞𝗟𝗔𝗠":
         return text.format(_cmd("BROADCAST_COMMAND"))
-    elif helper_key == "Bot":
+    elif helper_key == "𝗕𝗢𝗧":
         return text.format(
             _cmd("GSTATS_COMMAND"),
             _cmd("SUDOUSERS_COMMAND"),
