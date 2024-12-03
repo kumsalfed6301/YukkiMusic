@@ -14,7 +14,7 @@
 PING_COMMAND : ["ping", "alive", "aalive"]
 PRIVACY_COMMAND : ["privacy"]
 START_COMMAND : ["start"]
-HELP_COMMAND : [ "yardim", "yardım"]
+HELP_COMMAND : [ "yardim", "help"]
 SETTINGS_COMMAND : ["ayarlar", "ayar"]
 RELOAD_COMMAND : ["admincache", "reload"]
 GSTATS_COMMAND : ["gstats"]
