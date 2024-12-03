@@ -50,7 +50,7 @@ async def format_helper_text(lng, helper_key: str, text: str) -> str:
         return text.format(
             _cmd("AUTH_COMMAND"), _cmd("UNAUTH_COMMAND"), _cmd("AUTHUSERS_COMMAND")
         )
-    elif helper_key == "Admin":
+    elif helper_key == "𝗔𝗗𝗠𝗜̇𝗡":
         return text.format(
             _cmd("PAUSE_COMMAND"),
             _cmd("RESUME_COMMAND"),
@@ -64,21 +64,21 @@ async def format_helper_text(lng, helper_key: str, text: str) -> str:
             _cmd("REBOOT_COMMAND"),
             _cmd("LOOP_COMMAND"),
         )
-    elif helper_key == "Active":
+    elif helper_key == "𝗔𝗞𝗧𝗜̇𝗙𝗟𝗜̇𝗞":
         return text.format(
             _cmd("ACTIVEVC_COMMAND"),
             _cmd("ACTIVEVIDEO_COMMAND"),
             _cmd("AC_COMMAND"),
             _cmd("STATS_COMMAND"),
         )
-    elif helper_key == "Play":
+    elif helper_key == "𝗢𝗬𝗡𝗔𝗧":
         return text.format(
             _cmd("PLAY_COMMAND"),
             _cmd("PLAYMODE_COMMAND"),
             _cmd("CHANNELPLAY_COMMAND"),
             _cmd("STREAM_COMMAND"),
         )
-    elif helper_key == "G-cast":
+    elif helper_key == "𝗥𝗘𝗞𝗟𝗔𝗠":
         return text.format(_cmd("BROADCAST_COMMAND"))
     elif helper_key == "Bot":
         return text.format(
@@ -91,14 +91,14 @@ async def format_helper_text(lng, helper_key: str, text: str) -> str:
             _cmd("UNAUTHORIZE_COMMAND"),
             _cmd("AUTHORIZED_COMMAND"),
         )
-    elif helper_key == "P-List":
+    elif helper_key == "𝗣-𝗟𝗜̇𝗦𝗧":
         return text.format(
             _cmd("PLAYLIST_COMMAND"),
             _cmd("DELETE_PLAYLIST_COMMAND"),
             _cmd("PLAY_PLAYLIST_COMMAND"),
             _cmd("PLAY_PLAYLIST_COMMAND"),
         )
-    elif helper_key == "B-list":
+    elif helper_key == "𝗕-𝗟𝗜̇𝗦𝗧":
         return text.format(
             _cmd("BLACKLISTCHAT_COMMAND"),
             _cmd("WHITELISTCHAT_COMMAND"),
@@ -110,7 +110,7 @@ async def format_helper_text(lng, helper_key: str, text: str) -> str:
             _cmd("UNGBAN_COMMAND"),
             _cmd("GBANNED_COMMAND"),
         )
-    elif helper_key == "Dev":
+    elif helper_key == "𝗦𝗔𝗛𝗜̇𝗣":
         return text.format(
             _cmd("ADDSUDO_COMMAND"),
             _cmd("DELSUDO_COMMAND"),
@@ -272,10 +272,10 @@ async def help_button(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        text="↪️ Back",
+                        text="↪️ 𝗚𝗘𝗥𝗜̇",
                         callback_data=f"help_prev({prev_page_num},{int(close)})",
                     ),
-                    InlineKeyboardButton(text="🔄 Close", callback_data="close"),
+                    InlineKeyboardButton(text="🔄 𝗞𝗔𝗣𝗔𝗧", callback_data="close"),
                 ],
             ]
         )
@@ -314,9 +314,9 @@ async def help_button(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        text="↪️ Back", callback_data=f"help_prev({page_n},{int(close)})"
+                        text="↪️ 𝗚𝗘𝗥𝗜̇", callback_data=f"help_prev({page_n},{int(close)})"
                     ),
-                    InlineKeyboardButton(text="🔄 Close", callback_data="close"),
+                    InlineKeyboardButton(text="🔄 𝗞𝗔𝗣𝗔𝗧", callback_data="close"),
                 ]
             ]
         )
