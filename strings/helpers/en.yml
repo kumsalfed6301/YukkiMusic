@@ -20,25 +20,25 @@ Admin: |
   <b>✧ {10}</b>  /cdongu /dongu [enable/disable] veya [1-10 arasında bir sayı] - Etkinleştirildiğinde, bot mevcut müziği sesli sohbette 1-10 kez tekrar eder. Varsayılan döngü değeri 10'dur.
 
 Active: |
-  <b>✧ {0}</b> - Botta aktif sesli sohbetleri kontrol edin.
-  <b>✧ {1}</b> - Botta aktif sesli ve görüntülü aramaları kontrol edin.
-  <b>✧ {2}</b> - Botta aktif görüntülü aramaları kontrol edin.
-  <b>✧ {3}</b> - Bot istatistiklerini kontrol edin.
+  <b>✧ /activevc /aktifses - Botta aktif sesli sohbetleri kontrol edin.
+✧ /activevd /aktifvideo - Botta aktif sesli ve görüntülü aramaları kontrol edin.
+✧ /ac - Botta aktif görüntülü aramaları kontrol edin.
+✧ /stats - Bot istatistiklerini kontrol edin.
 
 Play: |
-  <b>✧ {0}</b> - Bot, verilen sorguyu sesli sohbette çalmaya veya canlı bağlantıları yayınlamaya başlar.
-  <b>✧ {1}</b> - Zorla Çalma, mevcut çalan parçayı durdurur ve aranan parçayı hemen çalmaya başlar, kuyruğu rahatsız etmeden/silmeden.
-  <b>✧ {2}</b> - Bir kanalı bir gruba bağlayın ve grubunuzdan kanalın sesli sohbetinde müzik yayınlayın.
-  <b>✧ {3}</b> - Doğrudan veya m3u8 olduğunu düşündüğünüz ve /play ile çalınamayan bir URL yayınlayın.
+  <b>✧ /oynat /voynat /coynat /cvoynat /oynatforce /voynatforce /coynatforce /cvplayforce /oynat /voynat /coynat - Bot, verilen sorguyu sesli sohbette çalmaya veya canlı bağlantıları yayınlamaya başlar.
+✧ /playmode /oynatmamodu - Zorla Çalma, mevcut çalan parçayı durdurur ve aranan parçayı hemen çalmaya başlar, kuyruğu rahatsız etmeden/silmeden.
+✧ /channelplay - Bir kanalı bir gruba bağlayın ve grubunuzdan kanalın sesli sohbetinde müzik yayınlayın.
+✧ /stream /cstream /streamforce /cstreamforce - Doğrudan veya m3u8 olduğunu düşündüğünüz ve /play ile çalınamayan bir URL yayınlayın.
 
 G-cast: |
-  <b>{0} [Mesaj veya herhangi bir mesaja yanıt]</b> » Botun hizmet verdiği sohbetlere bir mesaj yayınlayın
-  <u>Yayın Modları:</u>
-  <b><code>-pin</code></b> » Yayınlanan mesajı hizmet verilen sohbetlerde sabitleyin
-  <b><code>-pinloud</code></b> » Yayınlanan mesajı sabitleyin ve üyelere bildirim gönderin
-  <b><code>-user</code></b> » Mesajı botu başlatan kullanıcılara yayınlayın [Mesajı sabitlemek için `-pin` veya `-pinloud` ekleyebilirsiniz]
-  <b><code>-assistant</code></b> » Mesajınızı botun tüm asistanları aracılığıyla yayınlayın
-  <b><code>-nobot</code></b> » **Bot**'un mesajı yayınlamamasını sağlar [Mesajı gruplara yayınlamak istemediğinizde kullanışlıdır]
+  <b>/reklam /duyuru [Mesaj veya herhangi bir mesaja yanıt] » Botun hizmet verdiği sohbetlere bir mesaj yayınlayın
+Yayın Modları:
+-pin » Yayınlanan mesajı hizmet verilen sohbetlerde sabitleyin
+-pinloud » Yayınlanan mesajı sabitleyin ve üyelere bildirim gönderin
+-user » Mesajı botu başlatan kullanıcılara yayınlayın [Mesajı sabitlemek için -pin veya -pinloud ekleyebilirsiniz]
+-assistant » Mesajınızı botun tüm asistanları aracılığıyla yayınlayın
+-nobot » Bot'un mesajı yayınlamamasını sağlar [Mesajı gruplara yayınlamak istemediğinizde kullanışlıdır]  <b><code>-nobot</code></b> » **Bot**'un mesajı yayınlamamasını sağlar [Mesajı gruplara yayınlamak istemediğinizde kullanışlıdır]
   > <b>Örnek:</b> <code>/{0} -user -assistant -pin Test yayını</code>
 
 Bot: |
@@ -53,37 +53,37 @@ Bot: |
   <b>✧ {7}</b> - Botunuzu kullanmasına izin verilen tüm sohbetleri kontrol edin.
 
 P-List: |
-  <b>{0}</b> - Bot sunucusunda tüm oynatma listenizi kontrol edin
-  <b>{1}</b> - Kaydedilmiş oynatma listenizden herhangi bir şarkıyı silin
-  <b>{2}</b> - Kaydedilmiş oynatma listenizi **ses** olarak çalmaya başlayın
-  <b>{3}</b> - Oynatma listenizi **video** olarak çalmaya başlayın
+  <b>{0}</b> /oynatmalistesi - Bot sunucusunda tüm oynatma listenizi kontrol edin
+/oynatmalistesinisil - Kaydedilmiş oynatma listenizden herhangi bir şarkıyı silin
+/playplaylist /vplayplaylist - Kaydedilmiş oynatma listenizi ses olarak çalmaya başlayın
+/playplaylist /vplayplaylist - Oynatma listenizi video olarak çalmaya başlayın
 
 B-list: |
-  <b>✧ {0}</b> [chat ID] - Herhangi bir sohbeti Müzik Botunu kullanmaktan engelleyin.
-  <b>✧ {1}</b> [chat ID] - Kara listeye alınan herhangi bir sohbetin Müzik Botunu kullanmasına izin verin.
-  <b>✧ {2}</b> - Engellenen tüm sohbetleri kontrol edin.
-  <b>✧ {3}</b> [Kullanıcı adı veya bir kullanıcıya yanıt] - Kullanıcının bot komutlarını kullanmasını engelleyin.
-  <b>✧ {4}</b> [Kullanıcı adı veya bir kullanıcıya yanıt] - Kullanıcıyı botun engellenen listesinden çıkarın.
-  <b>✧ {5}</b> - Engellenen kullanıcıların listesini kontrol edin.
-  <b>✧ {6}</b> [Kullanıcı adı veya bir kullanıcıya yanıt] - Kullanıcıyı tüm hizmet verilen sohbetlerden yasaklayın ve botunuzu kullanmasını engelleyin.
-  <b>✧ {7}</b> [Kullanıcı adı veya bir kullanıcıya yanıt] - Kullanıcıyı küresel yasak listesinden çıkarın ve botunuzu kullanmasına izin verin.
-  <b>✧ {8}</b> - Küresel yasaklı kullanıcıların listesini kontrol edin.
+  ✧ /grupyasakla [chat ID] - Herhangi bir sohbeti Müzik Botunu kullanmaktan engelleyin.
+✧ /grupyasakkaldir [chat ID] - Kara listeye alınan herhangi bir sohbetin Müzik Botunu kullanmasına izin verin.
+✧ /yasakligruplar - Engellenen tüm sohbetleri kontrol edin.
+✧ /yasakla [Kullanıcı adı veya bir kullanıcıya yanıt] - Kullanıcının bot komutlarını kullanmasını engelleyin.
+✧ /yasakkaldir [Kullanıcı adı veya bir kullanıcıya yanıt] - Kullanıcıyı botun engellenen listesinden çıkarın.
+✧ /yasaklilar - Engellenen kullanıcıların listesini kontrol edin.
+✧ /gban [Kullanıcı adı veya bir kullanıcıya yanıt] - Kullanıcıyı tüm hizmet verilen sohbetlerden yasaklayın ve botunuzu kullanmasını engelleyin.
+✧ /ungban [Kullanıcı adı veya bir kullanıcıya yanıt] - Kullanıcıyı küresel yasak listesinden çıkarın ve botunuzu kullanmasına izin verin.
+✧ /gbannedusers /gbanlist - Küresel yasaklı kullanıcıların listesini kontrol edin.
 
 Dev: |
   <b><u>Sudoers ekleme ve kaldırma:</u></b>
-  <b>{0} [Kullanıcı adı veya bir kullanıcıya yanıt] - Botunuza Sudo ekleyin</b>
-  <b>{1} [Kullanıcı adı veya kullanıcı kimliği veya bir kullanıcıya yanıt] - Kullanıcıyı bot sudoers'larından çıkarın</b>
-  <b>{2} - Tüm sudoers listesini alın</b>
-  <b><u>Heroku:</u></b>
-  <b>{3}</b> - Dyno kullanımı
-  <b>{4} [Değişken Adı]</b> - Bir yapılandırma değişkenini alın
-  <b>{5} [Değişken Adı]</b> - Bir yapılandırma değişkenini silin
-  <b>{6} [Değişken Adı] [Değer]</b> - Bir değişken ekleyin veya güncelleyin. Değişken ve değeri bir boşlukla ayırın
-  <b><u>Bot komutu:</u></b>
-  <b>{7}</b> - Botu yeniden başlatın (yalnızca SUDOERS)
-  <b>{8}</b> - Botu güncelleyin
-  <b>{9}</b> - Sunucu hızlarını kontrol edin
-  <b>{10} [enable/disable]</b> - Bot bakım modunu geçiş yapın
-  <b>{11} [enable/disable]</b> - Aranan sorguların log grubuna kaydedilmesini geçiş yapın
-  <b>{12} [Satır sayısı]</b> - Sunucudan günlükleri alın
-  <b>{13} [enable/disable]</b> - Eğer kimse şarkıyı dinlemiyorsa yayını 30 saniye sonra otomatik olarak bitirin
+  /sudoekle [Kullanıcı adı veya bir kullanıcıya yanıt] - Botunuza Sudo ekleyin
+/sudosil [Kullanıcı adı veya kullanıcı kimliği veya bir kullanıcıya yanıt] - Kullanıcıyı bot sudoers'larından çıkarın
+/sudolistesi - Tüm sudoers listesini alın
+Heroku:
+/kullanim - Dyno kullanımı
+/get_var /getvar [Değişken Adı] - Bir yapılandırma değişkenini alın
+/del_var /delvar [Değişken Adı] - Bir yapılandırma değişkenini silin
+/setvar [Değişken Adı] [Değer] - Bir değişken ekleyin veya güncelleyin. Değişken ve değeri bir boşlukla ayırın
+Bot komutu:
+/restart - Botu yeniden başlatın (yalnızca SUDOERS)
+/guncelle - Botu güncelleyin
+/speed /hiztesti - Sunucu hızlarını kontrol edin
+/bakimmodu /bakim [enable/disable] - Bot bakım modunu geçiş yapın
+/logger [enable/disable] - Aranan sorguların log grubuna kaydedilmesini geçiş yapın
+/log [Satır sayısı] - Sunucudan günlükleri alın
+/autoend [enable/disable] - Eğer kimse şarkıyı dinlemiyorsa yayını 30 saniye sonra otomatik olarak bitirin
